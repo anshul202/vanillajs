@@ -1,0 +1,764 @@
+.main{
+    width: 100%;
+    margin: 0px;
+}
+nav{
+    display: flex;
+    font-size: 0.9rem;
+    background-color:#003262;
+    justify-content: space-evenly;
+    height: 26px;
+}
+#logotab{
+    display: inline-flex !important;
+    justify-content: space-around;
+    column-gap: 30px;
+    height: 88px;
+    position: absolute;
+    top: 35px;
+}
+#logotab img{
+    height: 90px;
+}
+.text-shadow{
+    text-shadow: -1px 1px 0 #000,
+                          1px 1px 0 #000,
+                         1px -1px 0 #000,
+                        -1px -1px 0 #000;
+}
+
+/*--------------------------------------------------------*/
+.menubar{
+    left: 100px;
+    display: flex;
+    position: absolute;
+    top: 20vh;
+    justify-content: space-evenly;
+    width: 90%;
+}
+.dropbtn{
+    background-color: transparent;
+    color: wheat;
+    border: 0px;
+    padding: 16px;
+    display: inline;
+}
+.dropdown-content {
+    position: absolute;
+    display: none;
+    min-width: 160px;
+    background-color: rgb(39, 17, 17);
+    opacity: 0.5;
+    z-index: 1;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.dropdown-content a{
+    padding: 8px 13px;
+    color: white;
+    display: block;
+    text-decoration: none;
+}
+.dropdown-content a:hover {background-color: transparent;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: transparent;}
+
+
+ /*--------------------------------------------------------------------------------------------------------------------------*/
+.feature{
+    animation: slide 3s;
+}
+.slider {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    transition: all .2s ease-in-out;
+    animation: slide 20s infinite;
+ }
+ 
+ .overlay {
+    color: #fff;
+    width: 100%;
+    height: 100vh;
+    transition: all .2s ease-in-out;
+ }
+ @keyframes slide {
+    0%{
+        background-image: url(http://nsut.ac.in/sites/default/files/2023-05/NSUT%20WEBSITE%20BANNER_2.jpg);
+    }
+
+    25%{
+        background-image: url(http://nsut.ac.in/sites/default/files/2023-05/NSUT%20WEBSITE%20BANNER_2.jpg);
+    }
+    25.1%{
+        background-image: url(http://nsut.ac.in/sites/default/files/2022-09/nsut%20green%20view.jpg);
+    }
+    45%{
+        background-image: url(http://nsut.ac.in/sites/default/files/2023-04/DSC_2275%20%281%29.jpg);
+    }
+    50%{
+        background-image: url(http://nsut.ac.in/sites/default/files/2022-10/NSUT%20WEBSITE%20BANNER.jpg);
+    }
+    50.01%{
+        background-image: url(http://nsut.ac.in/sites/default/files/2022-10/NSUT%20WEBSITE%20BANNER.jpg);
+    }
+ 
+    70%{
+        background-image: url(http://nsut.ac.in/sites/default/files/2023-05/NSUT%20WEBSITE%20BANNER_2.jpg);
+
+    }
+    75%{
+        background-image: url(http://nsut.ac.in/sites/default/files/2022-09/nsut%20green%20view.jpg);   
+    }
+
+    95%{
+        background-image: url(http://nsut.ac.in/sites/default/files/2023-04/DSC_2275%20%281%29.jpg);
+    }
+    100%{
+       background-image: url(http://nsut.ac.in/sites/default/files/2023-05/NSUT%20WEBSITE%20BANNER_2.jpg);
+       
+    }
+
+ }
+ /*-------------------------------------------------------------------------------------------------------------------*/
+.marcee{
+    display: flex;
+    gap: 10px;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 175px;
+    left: 40px;
+    padding: 5px;
+    margin: 20px;
+}
+.marcee marquee{
+    width: 50%;
+}
+.marcee audio{
+    height: 25px;
+}
+/*-------------------------------------------------------------------------------------------------------------------*/
+.about-nsut{
+    font-family: 'Bitter', serif;
+    font-family: 'Open Sans', sans-serif;
+    align-items: center;
+    font-size: larger;
+    padding: 20px;
+    width: 75%;
+    margin: auto;
+}
+.about-nsut h2{
+   font-size: 40px !important;
+   position: relative;
+   width: fit-content;
+   left: 40%;
+}
+.about-nsut p{
+    margin-top: 30px;
+    font-family: monospace;
+    font-size:large !important;
+}
+/*-------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+h1{
+    font-family: 'Bitter', serif;
+}
+h2{
+    font-weight: 500;
+    font-family: 'Bitter', serif;
+}
+*{
+    margin: 0px;
+}
+marquee{ 
+    color: black;
+    background-color: transparent;
+}
+
+.reflink1{
+    color: aliceblue;
+}
+
+
+.greenbackground{
+    background-color:#003262;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 100px;
+}
+#cardid{
+    font-family: 'Bitter', serif;
+    color: rgb(67, 62, 62);
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 230px;
+    border: solid black;
+    border-radius: 10px;
+}
+#cardid h2{
+    font-size: 1.5rem;
+}
+.cardid1{
+    background-color: #b3dcff;
+    width: 115%;
+    display: flex;
+    height: 70px;
+    padding: 10px;
+    gap: 10px;
+    align-self: center;
+}
+
+.cardid2{
+    background-color: #ffeece;
+    width: 115%;
+    display: flex;
+    height: 70px;
+    padding: 10px;
+    gap: 10px;
+    align-self: center;
+}
+.cardid3{
+    background-color: #ffc5f8;
+    width: 115%;
+    display: flex;
+    height: 70px;
+    padding: 10px;
+    gap: 10px;
+    align-self: center;
+}
+.VC>img{
+    height: 114px;
+    width: 114px;
+    
+}
+/*----------------------------------------------*/
+
+.carouselnnews{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+#latestnew{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    border-top: solid lightskyblue;
+    margin: 10px;
+}
+
+.cards-wrapper {
+    display: flex;
+    justify-content: center;
+    border-left: solid 1px;
+  }
+  .card img {
+    max-width: 70%;
+    max-height: 70%;
+  }
+  .card {
+    margin: 0 0.5em;
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+    border: none;
+    border-radius: 0;
+    width: 300px;
+  }
+  .carousel-inner {
+    padding: 1em;
+  }
+  .carousel-control-prev,
+  .carousel-control-next {
+    background-color: #e1e1e1;
+    width: 5vh;
+    height: 5vh;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  @media (min-width: 768px) {
+    .card img {
+      height: 11em;
+    }
+  }
+/*----------------------------------------------*/
+
+
+.card2>img{
+    align-items: center;
+    margin: 10px;
+}
+.temp{
+    text-align: center;
+    clear: left;
+    
+}
+header{
+    text-align: center;
+    margin: 0px;
+    border-top: solid #003262;
+    background-color: azure;
+}
+#departments{
+    text-align: center;
+    display: flex;
+    padding: 5%;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+
+.research-background>img{
+    height: 700px;
+    width: 100%;
+    z-index: -2;
+}
+.research-background{
+    height: 700px;
+}
+
+.research{
+    position: relative;
+    height: 350px;
+    font-family: monospace;
+    width: 55%;
+    font-size: 20px;
+    font-weight: bold;
+    color: azure;
+    background:rgb(0 53 99/80%);
+    height: 400px;
+    bottom: 500px;
+    text-align: center;
+    left: 25%;
+    z-index: 1;
+}
+
+.iframeclass{
+    display: inline;
+    
+}
+.info1{
+    position: absolute;
+    bottom: 100;
+}
+
+/*
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    clear: both;
+    background-color: rgb(59, 59, 174);
+    height: 300px;
+    width: 100%;
+    color: aliceblue;
+    font-size: large;
+}*/
+foots>a{
+    color: #e1e1e1 !important;
+    font
+}
+div[align]{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: solid darkolivegreen;
+    height: 300px;
+    width: 100%;
+    border-radius: 2px;
+}
+
+#admission{
+    height: 72rem;
+    width: auto;
+    background-image: url(assets/admission.jpg);
+    padding: 4rem;
+}
+#admi_heading{
+        text-align:center;
+        color: white;
+        font-size: 2rem;
+        font-weight: 600;
+        margin-bottom: 1.875rem;
+    }
+#admi_big_box{
+        width: auto;
+        height: 64.375rem;
+        display: flex;
+        justify-content: center;
+}
+
+        /* Admission box details: starts*/
+#admi_icon{
+        height: 2.5rem;
+        width: 3.125rem;
+        display: inline-block;
+        vertical-align: top;            
+}
+    #admi_p{
+        width: 17.8125rem;
+        font-size: 1.20rem;
+        font-weight: 400;
+        line-height: 1.5;
+        display: inline-block;
+        color: white;
+        vertical-align: middle;
+    }
+    #admi_h{
+        width: 100%;
+        font-size: 2.25rem;
+        margin-bottom: 1.875rem;
+        position: relative;
+        font-weight: 400;
+        color: #ffffff;
+    }
+    #admi_h:after{
+        content: "";
+        width: 5rem;
+        height: 0.1875rem;
+        background: white;
+        display: block;
+        margin: 0.4375rem 0;
+    }
+    #admi_content{
+        border-bottom: 0.0625rem solid #196cb4;
+        padding: 0.625rem;
+    }
+    /* Admission box details: ends*/
+
+    #admi_phd{
+        width: 23.125rem;
+        height: 9.375rem;
+        display: inline-block;
+        margin-top: 1.25rem;
+    }
+    #admi_under{
+        width: 23.125rem;
+        height: 61.25rem;
+        display: inline-block;
+        margin: 1.25rem;
+    }
+    #admi_post{
+        width: 23.125rem;
+        height: 61.25rem;
+        display: inline-block;
+        margin: 1.25rem;
+    }
+/*----------------PHD ADMISSION BLUE--------------------------------------------------------------*/
+
+/*----------------FOOTER--------------------------------------------------------------*/
+#footer{
+    height: 23.5rem;
+    width: auto;
+    position: static;
+    height: auto;
+    bottom: 0;
+    background-color: #003262;
+    padding: 1.8rem;
+}
+#quicklinks{
+    height: 19.8rem;
+    width: 20rem;
+    font-size: 0.9rem;
+    line-height: 2.1rem;
+    letter-spacing: 0.025rem;
+    padding: 0 0.875rem 3.25rem 0.5rem;
+    border-right: 0.15rem dotted #7d7d7d;
+    color: white;
+    display: inline-block;
+
+}
+#footer_h{
+    font-size: 1.1rem;
+    margin-bottom: 1.2rem;
+    margin-top: 0;
+}
+.menu-item{
+    height: auto;
+    margin: 0.15rem 0 0.15rem 0;
+    border-bottom: 0.15rem dotted #7d7d7d;  
+}
+.menu-item a{
+    color: white;
+    text-decoration: none;
+}
+#explore{
+    height: 19.8rem;
+    width: 20rem;
+    font-size: 0.9rem;
+    line-height: 2.1rem;
+    letter-spacing: 0.025rem;
+    padding: 0 0.875rem 3.25rem 0.5rem;
+    border-right: 0.15rem dotted #7d7d7d;
+    color: white;
+    display: inline-block; 
+    vertical-align: top;
+}
+#social_media{
+    height: 19.8rem;
+    width: 20rem;
+    font-size: 0.9rem;
+    line-height: 2.1rem;
+    letter-spacing: 0.025rem;
+    padding: 0 0.875rem 3.25rem 0.5rem;
+    border-right: 0.15rem dotted #7d7d7d;
+    color: white;
+    display: inline-block; 
+    vertical-align: top;
+}
+#footer_last{
+    height: auto;
+    width: 20rem;
+    color: white;
+    display: inline-block;
+    font-size: 0.9rem;
+    vertical-align: top;
+    margin-top: 2rem;
+    margin-left: 0.95rem;
+}
+/*----------------FOOTER--------------------------------------------------------------*/
+/*----------------socialstimeline--------------------------------------------------------------*/
+
+.socialsclass{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px !important;
+}
+.socialsfacebook{
+    width: 350px;
+}
+.socials-twitter{
+    width: 350px;
+}
+/*----------------socialstimeline--------------------------------------------------------------*/
+
+/*---------------------RESPONSIVE   width 375 height 667  ----------------------------------------------------------------------------*/
+@media screen and (max-width:400px) {
+    body{
+        overflow-x: hidden;
+    }
+    .main{
+        width: 400px;
+    }
+    nav{
+        gap: 8px;
+        height: 30px;
+        flex-flow: row;
+    }
+    .reflink1{
+        margin: auto;
+        
+    }
+    a[href="/sdsd/"]{
+        display: none;
+    }
+    audio{
+        display: none;
+    }
+    /*---------logotab----------*/
+    #logotab{
+        width:100px;
+    }
+    #logotab img{
+        height: 40px;    
+    }
+    a[href="http://nsut.ac.in/location"]>p{
+        display: none;
+        position: relative;
+        right: 10;
+    }
+    .menubar{
+        display: none;
+        position: relative;
+        width: 390px;
+        left: 5px;
+        gap: 2px;
+    }
+    .dropbtn{
+        display: none;
+        font-size: 0.6rem;
+    }
+    img[src="http://nsut.ac.in/sites/default/files/inline-images/G20Whiteback.jpg"]{
+        display: none;
+    }
+
+    .text-shadow{
+        text-shadow: -1px 1px 0 #000,
+                              1px 1px 0 #000,
+                             1px -1px 0 #000,
+                            -1px -1px 0 #000;
+    }
+    .slider{
+        height: 300px;
+        background-image: url("http://nsut.ac.in/sites/default/files/2022-09/nsut%20green%20view.jpg");
+        
+    }
+    .about-nsut h2{
+        width: 300px;
+        position: relative;
+        left:0;
+    }
+    .about-nsut p{
+        text-align: center;
+    }
+    .greenbackground{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+        height: 900px;
+    }
+    #cardid{
+        position: relative;
+        left: 0px !important;
+    }
+    .carouselnnews{
+        flex-direction: column;
+        height: 800px;
+        gap: 0px;
+
+    }
+    #latestnew{
+        width: 370px;
+    }
+    #admi_big_box{
+        display: flex;
+        gap: 10px;
+        width: auto;
+        flex-direction: column;
+    }
+    #admi_p{
+        font-size: 1rem;
+        margin-left: 0px;
+    }
+    #admi_icon{
+        height: 1.1rem;
+        width: 0.8rem;
+        
+    }
+    #admission{
+       display: grid;
+       height: 130rem;
+       width: auto;
+       justify-items: start;
+    }
+    #admi_content a{
+        display: flex;
+        justify-content: space-evenly;
+        gap: 3px;
+    }
+    #admi_phd{
+       
+        width: 50%;
+    }
+    #admi_under{
+        width: 50%;
+    }
+    #admi_post{
+        width: 50%;
+    }
+    footer{
+        height:1000px;
+    }
+   
+    #departments{
+        flex-direction: column;
+    }
+    .research-background{
+      
+    }
+    #research{
+    height: 34.375rem;
+    width: auto;
+    background-image: url(research.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+#res_box{
+        height: 25.625rem;
+        width: 51.25rem;
+        background: rgb(0 53 99 / 90%);
+        color: #ffffff;
+        padding: 3.75rem 11.25rem 3.75rem 11.25rem;
+        margin-top: 4.5rem;
+}
+#res_cont{
+    height: 18.75rem;
+    width: 32.25rem;
+    text-align: center;
+}
+#res_p{
+    text-align: center;
+    font-size: 1.23rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-top: 1.1rem;
+}
+#res_h{
+    font-size: 2.3125rem;
+    font-weight: 500;
+    color: orange;
+
+}
+
+    .socialsclass{
+        height: 1000px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-bottom: 30px !important;
+    }
+    .socialsfacebook{
+        width: 350px;
+    }
+    .socials-twitter{
+        width: 350px;
+    }
+    #footer{
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        height: 23.5rem;
+        width: auto;
+        position: relative;
+        height: auto;
+        bottom: 0;
+        background-color: #003262;
+        padding: 1.8rem;
+    }
+    #quicklinks{
+        height: 19.8rem;
+        width: 20rem;
+        font-size: 0.9rem;
+        line-height: 2.1rem;
+        letter-spacing: 0.025rem;
+        padding: 0 0.875rem 3.25rem 0.5rem;
+        border-right: 0.15rem dotted #7d7d7d;
+        color: white;
+        display: inline-block;
+    }
+    .research{
+        font-size: 13px;
+    }
+    
+
+   
+}
+
+
+
+
+
+/*---lastline------------------RESPONSIVE   width 375 height 667  ----------------------------------------------------------------------------*/

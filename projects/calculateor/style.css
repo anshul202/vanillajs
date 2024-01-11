@@ -1,0 +1,62 @@
+body {
+	background-color: #212f4b;
+	display: flex;
+	height: 100vh;
+	flex-direction: column;
+	justify-content: center;
+	background-image: url(background.jpg);
+}
+.container{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	height: 60vh;
+	border: solid black 2px;
+	background-image: url(calcbackground.jpg);
+	opacity: 80%;
+	box-shadow: 2px 3px 8px black;
+}
+	
+	
+.screen{
+	height: 100px;
+	width: 3fr;
+	background-color: black;
+	border: solid white 3px;
+	border-radius: 10px;
+	color: azure;
+}
+.screen legend{
+	text-align: right;
+	font-family: monospace;
+	font-size: 60px;
+	padding-right: 2%;
+}
+.buttongroups{
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	grid-template-rows: repeat(6,1fr);
+	border: solid rgb(67, 66, 66) 5px;
+	border-radius: 1rem;
+}
+
+.btn,.btndif{
+	color: azure;
+	text-shadow: 1px 1px rgb(42, 27, 27);
+	font-family: monospace;
+	background-color: black;
+	height: 10fr;
+	border: solid white 2px;
+}
+.btn:hover{
+	text-shadow: 2px 2px white;
+	background: fixed;
+	height: 2.5rem;
+	color: black;
+}
+.btndif:hover{
+	text-shadow: 2px 2px white;
+	background: fixed;
+	height: 2.5rem;
+	color: black;
+}

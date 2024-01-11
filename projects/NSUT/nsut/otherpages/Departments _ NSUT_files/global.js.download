@@ -1,0 +1,27 @@
+/**
+ * @file
+ * Global utilities.
+ *
+ */
+(function ($, Drupal) {
+
+  'use strict';
+
+  Drupal.behaviors.bootstrap_barrio_subtheme = {
+    attach: function (context, settings) {
+
+$("span.emails , .field--type-email .field__item").each(function() {
+        var text = $(this).html();
+        var text_arr = text.split('.');
+        var text_arr_len = text_arr.length;
+        for(var i = 0; i < text_arr_len; i++)
+          text = text.replace('.', '[dot]');
+        $(this).html(text.replace('@', '[at]'));
+        //$(this).attr('href', 'javascript://');
+		$('span.emails').removeAttr('href');
+    })
+
+    }
+  };
+
+})(jQuery, Drupal);

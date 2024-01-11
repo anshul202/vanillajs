@@ -1,0 +1,48 @@
+:root{
+	--bg-color:#272829;
+	--main-color:rgb(97, 103, 122);
+	--second-color:rgb(216, 217, 218);
+	--text-color:rgb(255, 246, 224);
+}
+
+main{
+    width: 100fr;
+    margin-left: 3.9em;
+    margin-top: 1em;
+}
+
+.contentplayer{
+    padding: 0;
+}
+
+.channel{
+    display: flex;
+    gap: 10px;
+    color: var(--text-color);
+    letter-spacing: 0.01ch;
+    font-size: 91.5%;
+}
+
+.channel img{
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+}
+.subscribercount{
+    color: var(--second-color);
+   letter-spacing: 0;
+   font-size: 75%;
+}
+
+.btn-light{
+    border-radius: 30%;
+    height: 40px;
+    width: 95px;
+    display: grid;
+    place-items: center;
+    padding: 0;
+}
+.likes{
+    width: 150px;
+    height: 70px;
+}

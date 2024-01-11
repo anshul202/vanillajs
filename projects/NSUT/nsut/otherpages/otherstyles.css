@@ -1,0 +1,357 @@
+/*-----------------------------DROPDOWNMENU--------------------------------------------------------*/
+
+.main{
+    width: 100%;
+    margin: 0px;
+    height: 230px;
+    background-color: #a7161b;
+}
+nav{
+    display: flex;
+    font-size: 0.9rem;
+    background-color:#003262;
+    justify-content: space-evenly;
+    height: 26px;
+}
+.reflink1{
+    color: aliceblue;
+}
+#logotab{
+    display: inline-flex !important;
+    flex-shrink: 2;
+    justify-content: space-around;
+    column-gap: 30px;
+    height: 88px;
+    position: absolute;
+    top: 35px;
+}
+#logotab img{
+    height: 90px;
+}
+.text-shadow{
+    text-shadow: -1px 1px 0 #000,
+                          1px 1px 0 #000,
+                         1px -1px 0 #000,
+                        -1px -1px 0 #000;
+}
+
+/*--------------------------------------------------------*/
+.menubar{
+    left: 100px;
+    display: flex;
+    position: absolute;
+    top: 20vh;
+    justify-content: space-evenly;
+    width: 90%;
+}
+.dropbtn{
+    background-color: transparent;
+    color: wheat;
+    border: 0px;
+    padding: 16px;
+    display: inline;
+}
+.dropdown-content {
+    position: absolute;
+    display: none;
+    min-width: 160px;
+    background-color: rgb(39, 17, 17);
+    opacity: 0.5;
+    z-index: 1;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.dropdown-content a{
+    padding: 8px 13px;
+    color: white;
+    display: block;
+    text-decoration: none;
+}
+.dropdown-content a:hover {background-color: transparent;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: transparent;}
+/*-----------------------------DROPDOWNMENU-------------------------------------------------------------------------------------------------------------*/
+.marcee{
+    display: flex;
+    gap: 10px;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 175px;
+    left: 40px;
+    padding: 5px;
+    margin: 20px;
+}
+.marcee marquee{
+    width: 50%;
+}
+.marcee audio{
+    height: 25px;
+}
+/*-----------------------------DROPDOWNMENU---------------------------------------------------------------------------------------------*/
+
+/*----------------FOOTER--------------------------------------------------------------*/
+#footer{
+    height: 23.5rem;
+    width: auto;
+    position: static;
+    bottom: 0;
+    margin-top: 10rem;
+    background-color: #003262;
+    padding: 1.8rem;
+
+}
+#quicklinks{
+    height: 19.8rem;
+    width: 20rem;
+    font-size: 0.9rem;
+    line-height: 2.1rem;
+    letter-spacing: 0.025rem;
+    padding: 0 0.875rem 3.25rem 0.5rem;
+    border-right: 0.15rem dotted #7d7d7d;
+    color: white;
+    display: inline-block;
+
+}
+#footer_h{
+    font-size: 1.1rem;
+    margin-bottom: 1.2rem;
+    margin-top: 0;
+}
+.menu-item{
+    height: auto;
+    margin: 0.15rem 0 0.15rem 0;
+    border-bottom: 0.15rem dotted #7d7d7d;  
+}
+.menu-item a{
+    color: white;
+    text-decoration: none;
+}
+#explore{
+    height: 19.8rem;
+    width: 20rem;
+    font-size: 0.9rem;
+    line-height: 2.1rem;
+    letter-spacing: 0.025rem;
+    padding: 0 0.875rem 3.25rem 0.5rem;
+    border-right: 0.15rem dotted #7d7d7d;
+    color: white;
+    display: inline-block; 
+    vertical-align: top;
+}
+#social_media{
+    height: 19.8rem;
+    width: 20rem;
+    font-size: 0.9rem;
+    line-height: 2.1rem;
+    letter-spacing: 0.025rem;
+    padding: 0 0.875rem 3.25rem 0.5rem;
+    border-right: 0.15rem dotted #7d7d7d;
+    color: white;
+    display: inline-block; 
+    vertical-align: top;
+}
+#footer_last{
+    height: auto;
+    width: 20rem;
+    color: white;
+    display: inline-block;
+    font-size: 0.9rem;
+    vertical-align: top;
+    margin-top: 2rem;
+    margin-left: 0.95rem;
+}
+/*----------------FOOTER--------------------------------------------------------------*/
+footer{
+    display: flex;
+    margin-bottom: 0px;
+    justify-content: space-evenly;
+    align-items: center;
+    clear: both;
+    background-color: rgb(59, 59, 174);
+    height: 300px;
+    width: 100%;
+    color: aliceblue;
+    font-size: large;
+}
+/*----------------FOOTER--------------------------------------------------------------*/
+
+
+@media screen and (max-width:400px) {
+    .main{
+        width: 400px;
+    }
+    nav{
+        gap: 8px;
+        height: 30px;
+        flex-flow: row;
+    }
+    .reflink1{
+        margin: auto;
+        
+    }
+    a[href="/sdsd/"]{
+        display: none;
+    }
+    audio{
+        display: none;
+    }
+    /*---------logotab----------*/
+    #logotab{
+        width:200px;
+    }
+    .slider{
+        background-color: #a7161b !important;
+    }
+    #logotab img{
+        height: 40px;    
+    }
+    a[href="http://nsut.ac.in/location"]>p{
+        display: none;
+        position: relative;
+        right: 10;
+    }
+    .menubar{
+        display: none;
+        position: relative;
+        width: 390px;
+        left: 5px;
+        gap: 2px;
+    }
+    .dropbtn{
+        display: none;
+        font-size: 0.6rem;
+    }
+    img[src="http://nsut.ac.in/sites/default/files/inline-images/G20Whiteback.jpg"]{
+        display: none;
+    }
+
+    .text-shadow{
+        text-shadow: -1px 1px 0 #000,
+                              1px 1px 0 #000,
+                             1px -1px 0 #000,
+                            -1px -1px 0 #000;
+    }
+    .slider{
+        height: 300px;
+        background-image: url("http://nsut.ac.in/sites/default/files/2022-09/nsut%20green%20view.jpg");
+        
+    }
+    .about-nsut h2{
+        width: 300px;
+        position: relative;
+        left:0;
+    }
+    .about-nsut p{
+        text-align: center;
+    }
+    .greenbackground{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+        height: 900px;
+    }
+    #cardid{
+        position: relative;
+        left: 0px !important;
+    }
+    .carouselnnews{
+        flex-direction: column;
+        height: 800px;
+        gap: 0px;
+
+    }
+    #latestnew{
+        width: 370px;
+    }
+    #admi_big_box{
+        display: flex;
+        gap: 10px;
+        width: auto;
+        flex-direction: column;
+    }
+    #admi_p{
+        font-size: 1rem;
+        margin-left: 0px;
+    }
+    #admi_icon{
+        height: 1.1rem;
+        width: 0.8rem;
+        
+    }
+    #admission{
+       display: grid;
+       height: 130rem;
+       width: auto;
+       justify-items: start;
+    }
+    #admi_content a{
+        display: flex;
+        justify-content: space-evenly;
+        gap: 3px;
+    }
+    #admi_phd{
+       
+        width: 50%;
+    }
+    #admi_under{
+        width: 50%;
+    }
+    #admi_post{
+        width: 50%;
+    }
+    footer{
+        height:1000px;
+    }
+   
+    #departments{
+        flex-direction: column;
+    }
+    .research-background{
+      
+    }
+    .research{
+        font-size: 0.81rem;
+        background-color: #003262;
+        background-blend-mode: darken;
+        background-
+    }
+
+    .socialsclass{
+        height: 1000px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-bottom: 30px !important;
+    }
+    .socialsfacebook{
+        width: 350px;
+    }
+    .socials-twitter{
+        width: 350px;
+    }
+    #footer{
+        display: flex;
+        flex-direction: column;
+        gap: 4rem;
+        height: 23.5rem;
+        width: auto;
+        position: relative;
+        height: auto;
+        bottom: 0;
+        background-color: #003262;
+        padding: 1.8rem;
+    }
+    #quicklinks{
+        height: 19.8rem;
+        width: 20rem;
+        font-size: 0.9rem;
+        line-height: 2.1rem;
+        letter-spacing: 0.025rem;
+        padding: 0 0.875rem 3.25rem 0.5rem;
+        border-right: 0.15rem dotted #7d7d7d;
+        color: white;
+        display: inline-block;
+    }
+
+}
